@@ -1,0 +1,69 @@
+.shared {
+  min-height: 43px;
+  background: #FFE445;
+  border-radius: 5px;
+  border: 0;
+
+  font-family: 'YS Text';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #333333;
+}
+
+.addTicket {
+  composes: shared;
+  width: 100%;
+}
+
+.formSave {
+  composes: shared;
+  width: 312px;
+}
+
+.taskSave {
+  composes: shared;
+  width: 152px;
+}
+
+.addTicket:hover,
+.formSave:hover,
+.taskSave:hover {
+  background: #f1c840;
+}
+
+.taskAdd {
+  composes: shared;
+  width: 87px;
+  height: 30px;
+  border: 1px solid #929292;
+  border-radius: 3px;
+  background-color: #ffffff00;
+
+  line-height: 15px;
+}
+
+.confirm {
+  composes: shared;
+  width: 94px;
+  height: 40px;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+
+  font-size: 16px;
+  line-height: 15px;
+}
+
+.commentAdd {
+  min-height: 26px;
+  width: 170px;
+  height: 10px;
+  border: 1px solid #929292;
+  border-radius: 3px;
+  background-color: #ffffff00;
+  font-size: 13px;
+  line-height: 12px;
+  color: #929292;
+}

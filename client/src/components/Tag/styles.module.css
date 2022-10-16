@@ -1,0 +1,49 @@
+.small {
+  width: 40px;
+  height: 18px;
+  border-radius: 2px;
+}
+
+.medium {
+  width: 60px;
+  height: 24px;
+  border-radius: 2px;
+}
+
+.large {
+  width: 90px;
+  height: 24px;
+  border-radius: 2px;
+}
+
+.violet {
+  background: #EEE1FD;
+}
+
+.green {
+  background: #BAF8CF;
+}
+
+.red {
+  background: #FED6CC;
+}
+
+.orange {
+  background: #FFDCB6;
+}
+
+.blue {
+  background: #B8E6FF;
+}
+
+.light_green {
+  background: #D8FCB0;
+}
+
+.dark_blue {
+  background: #C6D9FF;
+}
+
+.yellow {
+  background: #FFF4C7;
+}

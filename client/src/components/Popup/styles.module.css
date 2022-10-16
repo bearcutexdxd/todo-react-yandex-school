@@ -1,0 +1,32 @@
+.popup_container {
+  width: 133px;
+  height: 62px;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.12);
+  border-radius: 6px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  bottom: -45px;
+  right: -9px;
+}
+
+.popup_container p {
+  font-size: 14px;
+  line-height: 15px;
+  color: #333333;
+  cursor: pointer;
+}
+
+.popup_container img {
+  width: 12px;
+  height: 12px;
+  cursor: pointer;
+}
+
+.test {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,37 @@
+.container {
+  padding: 37px 0px 0px 129px;
+}
+
+.task_container {
+  display: flex;
+  gap: 12px;
+}
+
+.task_container h2 {
+  font-size: 16px;
+  line-height: 19px;
+  color: #333333;
+  padding-top: 80px;
+  padding-left: 30px;
+  padding-bottom: 14px;
+}
+
+.todo_container,
+.progress_container,
+.done_container {
+  overflow-x: hidden;
+  overflow-y: auto;
+  max-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 277px;
+  border: 1px solid #CACACA;
+  border-radius: 7px;
+  padding: 14px;
+}
+
+.filter {
+  display: flex;
+  gap: 28px;
+}

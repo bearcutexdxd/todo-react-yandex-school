@@ -1,0 +1,43 @@
+.container {
+  padding: 12px;
+  width: 100%;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 6px;
+  background: #FFFFFF;
+}
+
+.top_container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.top_container p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  color: #333333;
+}
+
+.top_container img {
+  width: 20px;
+  align-self: flex-start;
+  padding-top: 4px;
+}
+
+.tags_container {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+.bottom_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom_container img {
+  width: 19px;
+  align-self: flex-end;
+}

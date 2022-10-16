@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f5f5f5;
+  font-family: 'YS Text';
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'YS Text';
+  src: local('YS Text'), url(./assets/fonts/YS_TEXT_REGULAR/YS\ Text\ Regular\ Regular.ttf) format('truetype');
+}
