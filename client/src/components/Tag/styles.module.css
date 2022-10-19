@@ -47,3 +47,16 @@
 .yellow {
   background: #FFF4C7;
 }
+
+.small:hover img,
+.medium:hover img,
+.large:hover img {
+  opacity: 100;
+}
+
+.image {
+  width: 10px !important;
+  margin-left: 47px;
+  margin-bottom: 2px;
+  opacity: 0;
+}

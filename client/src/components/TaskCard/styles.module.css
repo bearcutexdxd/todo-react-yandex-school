@@ -23,6 +23,7 @@
   width: 20px;
   align-self: flex-start;
   padding-top: 4px;
+  cursor: pointer;
 }
 
 .tags_container {

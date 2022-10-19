@@ -18,3 +18,9 @@
   gap: 8px;
   flex-flow: wrap;
 }
+
+.error {
+  color: rgb(230, 97, 97);
+  align-self: center;
+  font-size: 15px;
+}

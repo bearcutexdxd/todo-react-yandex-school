@@ -19,7 +19,7 @@
 
 .formSave {
   composes: shared;
-  width: 312px;
+  width: 100%;
 }
 
 .taskSave {

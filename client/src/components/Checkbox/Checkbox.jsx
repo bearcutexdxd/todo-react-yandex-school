@@ -1,19 +1,25 @@
+/* eslint-disable no-unused-expressions */
 import React from 'react';
+import { useDispatch } from 'react-redux';
 import styles from './styles.module.css';
-import useToggle from '../../hooks/useToggle';
+import { toggle } from '../../redux/slices/TagSelectorSlice';
+import { toggleFilters } from '../../redux/slices/TicketsSlice';
 
-export default function Checkbox({ text, checkHandler, tag }) {
-  const { value, toggle } = useToggle(false);
+export default function Checkbox({
+  text, tag, filter, tagsValues = [],
+}) {
+  const dispatch = useDispatch();
 
-  function clickHandle() {
-    toggle();
-    checkHandler(tag);
+  function onChangeHandler() {
+    if (filter) {
+      dispatch(toggleFilters(filter));
+    } else dispatch(toggle(tag));
   }
 
   return (
     <div className={styles.container}>
       <label>
-        <input type="checkbox" checked={value} onChange={() => clickHandle()} />
+        <input type="checkbox" checked={tagsValues[tag]} onChange={onChangeHandler} />
         <span />
       </label>
       {!!text && <p>{text}</p>}
